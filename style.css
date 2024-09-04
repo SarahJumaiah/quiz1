@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav */
+.nav{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr;
+    background-color: black;
+    color: white;
+}
+
+.left-nav{
+    display: block;
+}
+
+.left-nav img {
+    display: block;
+}
+
+.right-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.right-nav ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    width: 30vh;
+}
+
+.right-nav ul li {
+    list-style-type: none;
+}
+
+/* main container */
+.main{
+    background-color: white;
+    height: 100vh;
+    padding: 5%;
+}
+
+.main-text{
+    width: 50vh;
+    height: 50vh;
+    position: absolute;
+    top: 35%;
+}
+
+.main-h {
+    text-align: center;
+}
+
+.main-p {
+    text-align: center;
+    padding: 10px;
+}
+
+.main-button{
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    background-color: rgb(25, 0, 255);
+    border: none;
+    height: 50px;
+    width: 120px;
+    border-radius: 5px;
+    color: white;
+}
+
+.blue-up{
+    background-color: blue;
+    width: 30vh;
+    height: 20vh;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+
+.hotpink{
+    background-color: hotpink;
+    width: 60vh;
+    height: 40vh;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+}
+
+.black{
+    background-color: black;
+    width: 40vh;
+    height: 50vh;
+    position: absolute;
+    left: 70%;
+    top: 50%;
+}
+
+.blue-down{
+    background-color: blue;
+    width: 25vh;
+    height: 15vh;
+    position: absolute;
+    left: 64%;
+    top: 62%;
+}
+
+/* footer */
+.footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: black;
+    color: white;
+}
+
+.footer ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.footer ul li{
+    padding: 10px;
+}
